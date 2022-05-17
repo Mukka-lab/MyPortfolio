@@ -1,7 +1,17 @@
+@import 'header.css';
+
+
+/* =============================================================*/
+
 *{
     margin: 0;
     padding: 0;
     border: 0;
     box-sizing: border-box;
-    font-family: 'Lato', sans-serif;
+    font-family: 'Lato', Arial, sans-serif;
+}
+
+img{
+    max-width: 100%;
+    display: block;
 }
