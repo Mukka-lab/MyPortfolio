@@ -1,0 +1,23 @@
+main{
+    max-width: 1200px;
+    padding: 40px 20px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 80px;
+    align-items: center;
+    background-color: black;
+    color: aliceblue;
+}
+
+main img{
+    border-radius: 40px;
+}
+
+.intro h1{
+    font-weight: bold;
+}
+
+.intro-title span{
+    color: greenyellow;
+}
