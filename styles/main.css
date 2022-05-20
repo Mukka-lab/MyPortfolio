@@ -1,0 +1,88 @@
+main{
+    height: 90vh;
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #A5BF99;
+}
+
+
+/* ========================================================= */
+/* PROFILE */
+/* ========================================================= */
+
+.profile{
+    flex: 1;
+    text-align: center;
+    margin: auto 0;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+}
+
+.profile-photo img{
+    margin: 0 auto;
+    width: 60%;
+    border: 4px solid #3B7302;
+    border-radius: 50%;
+}
+
+.profile-photo h2{
+    text-align: center;
+    margin-top: 30px;
+    color: #DCEEF2;
+}
+
+.profile-socials{
+    display: flex;
+}
+
+.profile-socials li{
+    margin: 0 10px;
+    margin-top: 40px;
+    list-style: none;
+}
+
+.profile-socials a{
+    padding: 10px 20px;
+    color: #DCEEF2;
+    background-color: #3B7302;
+    border-radius: 20px;
+}
+.profile-socials a:hover{
+    background-color: #2C5305;
+}
+
+
+/* ========================================================= */
+/* CONTENT */
+/* ========================================================= */
+
+.content{
+    flex: 2;
+    background-color: coral;
+}
+
+
+
+/* RESPONSIVE */
+
+@media(max-width:700px){
+
+    main{
+        flex-direction: column;
+    }
+
+    .profile{
+        flex: none;
+        margin-bottom: 30px;
+    }
+
+    .profile-photo img{
+        display: none;
+    }
+}
