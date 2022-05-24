@@ -1,16 +1,43 @@
-.projects{
-    display: flex;
-}
-
 .projects-container{
     max-width: 960px;
+    margin: 0 auto;
     display: flex;
-    align-items: center;
-    justify-content: center;
     flex-wrap: wrap;
-    background-color: blue;
+    align-items: flex-start;
 }
 
 .project{
     flex: 1;
+    margin: 40px 20px;
+    min-width: 300px;
+}
+
+.project a{
+    display: block;
+    text-align: center;
+    padding: 20px 0;
+    border: 2px solid #3B7302;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    background-color: #A5BF99;
+    color: #DCEEF2;
+}
+.project a:hover{
+    color: #3B7302;
+}
+
+
+.projects-title{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+.projects-title h2{
+    font-size: 35px;
+    padding: 10px 20px;
+    background-color: #A5BF99;
+    border-radius: 30px;
+    color: #DCEEF2;
 }
