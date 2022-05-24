@@ -1,0 +1,16 @@
+.projects{
+    display: flex;
+}
+
+.projects-container{
+    max-width: 960px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-color: blue;
+}
+
+.project{
+    flex: 1;
+}
