@@ -9,12 +9,18 @@
 .project{
     flex: 1;
     margin: 40px 20px;
-    min-width: 300px;
+    min-width: 250px;
+}
+
+.project img{
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
 }
 
 .project a{
     display: block;
     text-align: center;
+    font-weight: bold;
     padding: 20px 0;
     border: 2px solid #3B7302;
     border-bottom-left-radius: 20px;

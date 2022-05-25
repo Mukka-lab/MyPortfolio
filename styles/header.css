@@ -16,18 +16,21 @@ header{
 .title h1{
     font-size: 35px;
     color: #DCEEF2;
+    text-shadow: 2px 2px #2C5305;
 }
 
 .title .title-bar{
     height: 2px;
     width: 100px;
     background-color: #DCEEF2;
+    box-shadow: 2px 2px #2C5305;
 }
 
 
 .header-menu{
     display: flex;
     flex-wrap: wrap;
+    padding: 20px 0;
 }
 
 .header-menu li{
@@ -38,11 +41,18 @@ header{
 .header-menu a{
     font-size: 16px;
     color: #DCEEF2;
-    padding: 10px;
+    padding: 15px 20px;
 }
 .header-menu a:hover{
     background-color: #2c5305;
     border-radius: 15px;
+}
+
+
+/* ICONS */
+
+.fa-solid{
+    padding-left: 10px;
 }
 
 
@@ -56,5 +66,12 @@ header{
 
     .header-menu{
         margin-top: 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .header-menu li{
+        margin-bottom: 40px;
     }
 }

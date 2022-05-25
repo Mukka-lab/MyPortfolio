@@ -44,6 +44,8 @@ main{
 
 .profile-socials{
     display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 .profile-socials li{
@@ -142,23 +144,19 @@ main{
 /* =========================================*/
 
 .text-4{
+    flex-wrap: wrap;
     text-align: center;
     padding-top: 40px;
     padding-bottom: 20px;
     font-size: 18px;
 }
 
-.text-4 a{
-    font-weight: bold;
-    padding: 10px;
-    color: #DCEEF2;
-    background-color: #A5BF99;
-    border-radius: 20px;
-}
-.text-4 a:hover{
-    background-color: #3B7302;
-}
 
+/* ICONS */
+
+.fa-brands{
+    padding-left: 10px;
+}
 
 
 /* RESPONSIVE */
